@@ -30,6 +30,3 @@ def remove_todo():
 
 st.button(label="Remove", key="remove", type="primary", on_click=remove_todo)
 st.button(label="Edit", type="primary")
-
-
-st.session_state
